@@ -1,0 +1,1776 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: PingFangSC-Light;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+a:hover {
+	color: none;
+}
+
+.head-container {
+	width: 100%;
+	height: 140px;
+}
+
+.clear {
+	clear: both;
+	overflow: hidden;
+}
+
+.slot {
+	display: inline-block;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	height: 3px;
+	width: 3px;
+	vertical-align: middle;
+	margin: 0 6px;
+}
+
+
+/*so use float main*/
+
+
+/*head.html*/
+
+.head-all {
+	width: 100%;
+}
+
+.head-all .head-navout {
+	height: 60px;
+	padding: 16px 66px 0 100px;
+}
+
+.head-all .head-navout img {
+	float: left;
+	height: 27px;
+	line-height: 60px;
+}
+
+.head-all .head-top {
+	height: 10px;
+	width: 100%;
+	background: -webkit-linear-gradient(left, #55bce9, #7370b5);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #55bce9, #7370b5);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #55bce9, #7370b5);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #55bce9, #7370b5);
+	/* 标准的语法 */
+}
+
+.head-all .head-nav {
+	float: right;
+	height: 40px;
+	background: #fff;
+}
+
+.head-all .head-nav li {
+	float: left;
+	margin-left: 45px;
+}
+
+.head-all .head-span {
+	font-size: 12px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #fff;
+}
+
+.head-all .head-active {
+	border-color: #7370B5;
+}
+
+.head-container {
+	width: 100%;
+	height: 70px;
+}
+
+
+/*foot.html*/
+
+.footer-container {
+	width: 100%;
+	height: 547px;
+}
+
+.foot-all {
+	width: 100%;
+}
+
+.footer-pos {
+	height: 387px;
+	position: relative;
+}
+
+.footer-pos>img {
+	height: 100%;
+	width: 100%;
+}
+
+.footer-pos .footer-detail {
+	height: 387px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 75px 0 0 221px;
+}
+
+.footer-pos .footer-detail>div {
+	float: left;
+}
+
+.footer-pos .footer-left {
+	width: 250px;
+}
+
+.footer-pos .footer-detail h5 {
+	font-size: 14px;
+	letter-spacing: 1.8px;
+	line-height: 20px;
+	margin-bottom: 27px;
+}
+
+.footer-pos .footer-left i {
+	font-size: 14px;
+	margin-right: 6px;
+}
+
+.footer-pos .footer-left li {
+	margin-bottom: 18px;
+	font-size: 14px;
+	letter-spacing: 1.75px;
+}
+
+.footer-pos .footer-mid {
+	margin-left: 130px;
+	font-size: 14px;
+}
+
+.footer-pos .footer-mid li {
+	margin-bottom: 18px;
+	letter-spacing: 1.75px;
+}
+
+.footer-pos .footer-right {
+	margin-left: 187px;
+}
+
+.footer-pos .footer-right div {
+	font-size: 14px;
+	letter-spacing: 1.75px;
+	margin-bottom: 28px;
+}
+
+.footer-bg {
+	padding-left: 221px;
+	padding-right: 270px;
+	height: 160px;
+	width: 100%;
+	color: #fff;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	/* 标准的语法 */
+}
+
+.footer-bg .copymessage {
+	float: left;
+	padding-top: 65px;
+	font-size: 10px;
+	line-height: 16px;
+}
+
+.footer-bg .copymessage i {
+	float: left;
+	font-size: 40px;
+	line-height: 40px;
+	margin-right: 20px;
+	margin-top: -7px;
+}
+
+.footer-bg .copymessage div {
+	float: left;
+}
+
+.footer-bg>i {
+	float: right;
+	font-size: 80px;
+	line-height: 160px;
+}
+
+
+/*index*/
+
+.index .swiper-indexone {
+	width: 100%;
+	height: 500px;
+}
+
+.index .swiper-indexone .swiper-slide {
+	width: 100%;
+	height: 100%;
+}
+
+.index .index-three {
+	height: 260px;
+	width: 100%;
+}
+
+.index .index-three li {
+	float: left;
+	height: 100%;
+	position: relative;
+}
+
+.index .index-three li img {
+	width: 100%;
+	height: 100%;
+}
+
+.index .index-three li:nth-child(2n+1) {
+	width: 33.3%;
+}
+
+.index .index-three li:nth-child(2) {
+	width: 33.4%;
+}
+
+.index .index-three .handlewords {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 65px;
+	padding-top: 37px;
+	color: #fff;
+}
+
+.index .english {
+	line-height: 33px;
+	font-size: 24px;
+}
+
+.index .chinese {
+	line-height: 33px;
+	font-size: 24px;
+	letter-spacing: 3px;
+}
+
+.index .des {
+	line-height: 25px;
+	margin-top: 31px;
+	font-size: 18px;
+	letter-spacing: 2.25px;
+}
+
+.index .btnmore a {
+	display: inline-block;
+	;
+	width: 125px;
+	height: 40px;
+	margin-left: 197px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 29px;
+	border-radius: 4.44px;
+	background: -webkit-linear-gradient(left, #1172D0, #1D98D6);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #1172D0, #1D98D6);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #1172D0, #1D98D6);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #1172D0, #1D98D6);
+	/* 标准的语法 */
+}
+
+.index .index-doctor {
+	background: #fff;
+}
+
+.index .index-doctor h4 {
+	padding: 60px 0 24px;
+	text-align: center;
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.index .index-doctor .words {
+	margin-bottom: 68px;
+	line-height: 25px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.index .index-doctor .doctors {
+	background: #f7f7f7;
+	width: 100%;
+	padding: 45px 213px 125px;
+}
+
+.index .doctors li {
+	float: left;
+	width: 180px;
+	margin-left: 44.5px;
+}
+
+.index .doctors li:nth-child(1) {
+	margin-left: 0;
+}
+
+.index .doctors li img {
+	width: 100%;
+}
+
+.index .doctors li div {
+	height: 100px;
+	background: #fff;
+}
+
+.index .doctors li h5 {
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 9px;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.index .doctors li p {
+	text-align: center;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.index .index-plan {
+	width: 100%;
+	height: 640px;
+}
+
+.index .index-four {
+	width: 100%;
+	padding: 62px 0 62px 120px;
+}
+
+.index .index-four li {
+	float: left;
+	margin-right: 35px;
+}
+
+.index .index-four .icon {
+	float: left;
+	width: 58px;
+	height: 58px;
+	overflow: hidden;
+}
+
+.index .index-four .words {
+	float: left;
+	padding-top: 3px;
+	padding-left: 8px;
+	font-weight: bold;
+}
+
+.index .index-four .words .chinese {
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 2.25px;
+}
+
+.index .index-four .words .english {
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 8px;
+}
+
+.index .index-older {
+	width: 100%;
+	height: 533px;
+	position: relative;
+}
+
+.index .index-older .words {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 160px 0 0 598px;
+	color: #fff;
+}
+
+.index .index-older .words h2 {
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.index .index-older .words h3 {
+	font-size: 36px;
+	letter-spacing: 4.5px;
+	line-height: 50px;
+	margin-top: 6px;
+}
+
+.index .index-older .words ul {
+	margin-top: 56px;
+	width: 680px;
+}
+
+.index .index-older .words li {
+	float: left;
+	width: 33%;
+	margin-bottom: 40px;
+}
+
+.index .index-older .words li .chinese {
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 32px;
+}
+
+.index .index-older .words li .englis {
+	font-size: 14px;
+	line-height: 20px;
+	padding-left: 18px;
+}
+
+.index .index-anotherwords {
+	background: #f7f7f7;
+	width: 100%;
+	padding: 44px 0 41px;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.index .index-anotherwords p {
+	text-align: center;
+}
+
+.index .index-product {
+	height: 200px;
+	width: 100%;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	/* 标准的语法 */
+}
+
+.index .index-productblock {
+	position: relative;
+}
+
+.index .index-productwords {
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.index .index-productwords h2 {
+	margin-top: 36px;
+	font-size: 36px;
+	letter-spacing: 4.5px;
+	line-height: 50px;
+}
+
+.index .index-productwords h3 {
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.index .index-productwords ul {
+	margin-top: 34px;
+	font-size: 14px;
+	letter-spacing: 1.75px;
+	line-height: 20px;
+	padding: 0 205px;
+}
+
+.index .index-productwords li {
+	float: left;
+	width: 270px;
+	margin-left: 30px;
+}
+
+.index .index-productwords li:nth-child(1) {
+	margin-left: 0;
+}
+
+.index .index-productwords li img {
+	width: 270px;
+}
+
+.index .index-productwords li div {
+	margin-top: 25px;
+	color: #fff;
+}
+
+.index .index-icon {
+	height: 93px;
+	width: 100%;
+}
+
+
+/*introduction*/
+
+.migrantoryA .tophead,
+.introduce .tophead,
+.migrantory .tophead {
+	height: 70px;
+	font-size: 12px;
+	line-height: 70px;
+	padding-left: 189px;
+	color: #fff;
+	width: 100%;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	/* 标准的语法 */
+}
+
+.introduce .worth {
+	width: 100%;
+	padding: 98px 183px 72px 183px;
+	background: #f7f7f7;
+}
+
+.introduce .worth>div {
+	float: left;
+}
+
+.introduce .leftsection {
+	width: 252px;
+}
+
+.introduce .leftsection h4 {
+	font-size: 36px;
+	letter-spacing: 4.5px;
+	line-height: 36px;
+	margin-bottom: 7px;
+}
+
+.introduce .leftsection h5 {
+	font-size: 35px;
+	line-height: 50px;
+}
+
+.introduce .line {
+	width: 2px;
+	height: 150px;
+	background: -webkit-linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* 标准的语法 */
+}
+
+.introduce .rightsection {
+	width: 591px;
+	margin-left: 69px;
+}
+
+.introduce .rightsection div {
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.introduce .corn {
+	position: relative;
+}
+
+.introduce .corn .whiteblock {
+	height: 376px;
+	background: #fff;
+}
+
+.introduce .corn .whiteblock h3 {
+	padding-top: 96px;
+	font-size: 36px;
+	letter-spacing: 4.5px;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+}
+
+.introduce .corn .whiteblock h4 {
+	line-height: 42px;
+	font-size: 35px;
+	color: #4a4a4a;
+	text-align: center;
+}
+
+.introduce .corn .colorblock {
+	height: 340px;
+	width: 100%;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	/* 标准的语法 */
+}
+
+.introduce .corn ul {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 245px;
+	padding: 0 151px;
+}
+
+.introduce .corn ul li {
+	float: left;
+	width: 312px;
+}
+
+.introduce .corn ul li img {
+	width: 100%;
+	margin-bottom: 28px;
+}
+
+.introduce .corn ul li:nth-child(2) {
+	margin: 0 21px;
+}
+
+.introduce .corn ul li div p {
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #fff;
+}
+
+.introduce .doctors {
+	width: 100%;
+	padding: 130px 228px;
+}
+
+.introduce .doctors li {
+	float: left;
+	width: 372px;
+}
+
+.introduce .doctors li:nth-child(2n+1) {
+	margin-right: 80px;
+}
+
+.introduce .doctors li:nth-child(1),
+.introduce .doctors li:nth-child(2) {
+	margin-bottom: 40px;
+}
+
+.introduce .doctors li img {
+	float: left;
+	width: 200px;
+}
+
+.introduce .doctors .personinfo {
+	float: left;
+	margin-left: 35px;
+	width: 137px;
+}
+
+.introduce .doctors .info-top {
+	height: 100px;
+	border-bottom: 1px #979797 solid;
+}
+
+.introduce .doctors .info-top p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.introduce .doctors .personinfo h4 {
+	font-size: 18px;
+	line-height: 34px;
+}
+
+.introduce .doctors .info-bottom {
+	padding-top: 24px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.introduce .story {
+	height: 632px;
+	width: 100%;
+}
+
+.introduce .story>div {
+	float: left;
+	width: 50%;
+}
+
+.introduce .story-left {
+	position: relative;
+}
+
+.introduce .story-pos {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.introduce .story-pos h3 {
+	padding-top: 137px;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 4.5px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.introduce .story-pos h4 {
+	font-size: 42px;
+	line-height: 50px;
+	margin-top: 4px;
+}
+
+.introduce .story-pos h5 {
+	font-size: 28px;
+	line-height: 32px;
+	margin-bottom: 25px;
+}
+
+.introduce .story-pos p {
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.introduce .story-pos .message {
+	margin-top: 30px;
+}
+
+.introduce .story-pos .message a {
+	display: inline-block;
+	;
+	width: 125px;
+	height: 40px;
+	float: left;
+	color: #fff;
+	line-height: 40px;
+	font-size: 14px;
+	border-radius: 4.44px;
+	background: -webkit-linear-gradient(left, #1172D0, #1D98D6);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #1172D0, #1D98D6);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #1172D0, #1D98D6);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #1172D0, #1D98D6);
+	/* 标准的语法 */
+}
+
+.introduce .story-pos .message a:nth-child(1) {
+	margin-left: 185px;
+	margin-right: 20px;
+}
+
+.introduce .story-pos .message a.haveborder {
+	line-height: 35px;
+	background: none;
+	border: 2.5px solid #1D98D6;
+}
+
+.introduce .dynamic {
+	color: #fff;
+	height: 732px;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	/* 标准的语法 */
+}
+
+.introduce .dynamic .top h4 {
+	padding-top: 56px;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 4.5px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.introduce .dynamic .top h5 {
+	font-size: 36px;
+	text-align: center;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 31px;
+}
+
+.introduce .dynamic .top p {
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.introduce .dynamic .bottome {
+	padding: 50px 113px 0 138px;
+}
+
+.introduce .dynamic .bottome>div {
+	float: left;
+}
+
+.introduce .dynamic-left {
+	width: 446px;
+}
+
+.introduce .dynamic-left .backblock {
+	width: 100%;
+	padding: 20px 30px 25px;
+	background: rgba(24, 144, 164, 0.50);
+	border-radius: 2.7px;
+	box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.10);
+}
+
+.introduce .dynamic-left .backblock h5 {
+	font-size: 18px;
+	line-height: 48px;
+}
+
+.introduce .dynamic-left ul {
+	padding-left: 30px;
+	color: #000;
+}
+
+.introduce .dynamic-left li {
+	font-size: 18px;
+	padding-top: 26px;
+	padding-bottom: 4px;
+}
+
+.introduce .dynamic-left li span {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.introduce .dynamic-left .backblock div {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.introduce .dynamic-right {
+	margin-left: 90px;
+	width: 493px;
+}
+
+.introduce .dynamic-right dl {
+	height: 78px;
+	margin-bottom: 20px;
+}
+
+.introduce .dynamic-right dt {
+	float: left;
+	width: 137px;
+	font-size: 35px;
+	line-height: 50px;
+}
+
+.introduce .dynamic-right dd {
+	float: left;
+	width: 356px;
+	font-size: 12px;
+	line-height: 17px;
+	padding-top: 8px;
+	text-align: justify;
+}
+
+
+/*migrantoryBird*/
+
+.migrantory .topcolor {
+	padding-left: 156px;
+	padding-right: 89px;
+	padding-top: 35px;
+	height: 160px;
+	width: 100%;
+	color: #fff;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	color: #fff;
+}
+
+.migrantory .topcolor>div {
+	float: left;
+}
+
+.migrantory .topcolor .bigdes {
+	font-size: 21px;
+	width: 610px;
+	line-height: 29px;
+}
+
+.migrantory .topcolor .bigdes span {
+	font-size: 25px;
+}
+
+.migrantory .topcolor .smalldes {
+	font-size: 14px;
+	line-height: 17px;
+	margin-top: 14px;
+}
+
+.migrantory .topcolor img {
+	font-size: 50px;
+	float: right;
+}
+
+.migrantory-mid {
+	background: #f7f7f7;
+	padding: 122px 150px 82px;
+}
+
+.migrantory-mid .ecologyleft {
+	float: left;
+	width: 640px;
+	margin-right: 40px;
+}
+
+.migrantory-mid .ecology {
+	padding-bottom: 44px;
+}
+
+.migrantory-mid .ecology img {
+	width: 300px;
+}
+
+.migrantory-mid .ecologyleft .verticalline,
+.migrantory-mid .planning .verticalline,
+.migrantoryA .product-des .verticalline,
+.migrantoryA .server .verticalline {
+	float: left;
+	height: 50px;
+	width: 5px;
+	margin-right: 21px;
+	margin-top: 15px;
+	background: -webkit-linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(-180deg, #55BCE9, #7370B5);
+	/* 标准的语法 */
+}
+
+.migrantory-mid .ecologyleft .titledetail h3,
+.migrantory-mid .planning .titledetail h3,
+.migrantory-main .setmeal h3,
+.migrantoryA .product-des h3 {
+	font-size: 36px;
+	letter-spacing: 4.5px;
+	line-height: 50px;
+}
+
+.migrantory-mid .ecologyleft .titledetail h4,
+.migrantory-mid .planning .titledetail h4,
+.migrantory-main .setmeal h4,
+.migrantoryA .product-des h4 {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.migrantory-mid .ecologyleft .des {
+	padding-left: 26px;
+	font-size: 14px;
+	line-height: 25px;
+	margin-top: 58px;
+	text-align: justify;
+}
+
+.ecology-white {
+	background: #fff;
+	width: 100%;
+	margin-bottom: 73px;
+}
+
+.ecology-white .des-pos {
+	font-size: 90px;
+	line-height: 100px;
+	text-align: center;
+	position: relative;
+	margin-top: 14px;
+	color: #1D98D6;
+}
+
+.ecology-white .des-pos .des {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #898989;
+}
+
+.ecology-white ul {
+	padding: 0 75px 40px;
+}
+
+.ecology-white ul li {
+	float: left;
+	width: 225px;
+	height: 45px;
+	border: 1px solid #1D98D6;
+	border-radius: 100px;
+	text-align: center;
+	line-height: 45px;
+}
+
+.ecology-white ul li:nth-child(2) {
+	margin: 0 77.5px;
+}
+
+.migrantory-mid .planning dl {
+	margin-top: 67px;
+}
+
+.migrantory-mid .planning dt {
+	float: left;
+	width: 370px;
+	margin-right: 55px;
+}
+
+.migrantory-mid .planning dt img {
+	width: 100%;
+}
+
+.migrantory-mid .planning dd {
+	float: left;
+	width: 555px;
+	text-align: justify;
+}
+.migrantory-mid .planning dd div{
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+.migrantory-main {
+	width: 100%;
+}
+
+.migrantory-main .birdswiper {
+	margin-top: 70px;
+}
+
+.migrantory-main .setmeal {
+	text-align: center;
+	padding: 78px 0 72px;
+}
+
+.birdswiper>.swiper-pagination {
+	text-align: center;
+	width: 1280px;
+}
+
+.birdswiper .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	left: 0;
+	color: #B8B8B8;
+}
+
+.birdswiper .swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	right: 0;
+	color: #B8B8B8;
+}
+
+.birdswiper .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+}
+
+.migrantory-swiper {
+	width: 80%;
+	margin: 20px 10%;
+}
+
+.migrantory-swiper .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	-webkit-transition: transform 1.0s ease;
+	-moz-transition: transform 1.0s ease;
+	-ms-transition: transform 1.0s ease;
+	-o-transition: transform 1.0s ease;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.migrantory-swiper .swiper-slide-active {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.migrantory-swiper .swiper-slide-active .setMeal-tag {
+	border: 1px solid #248694;
+}
+
+.migrantory-swiper .swiper-slide-active .title {
+	background: #248694;
+	color: #fff;
+}
+
+.migrantory-swiper .swiper-slide-active .setMeal-tag .thebutton a {
+	color: #fff;
+	background: #248694;
+}
+
+
+/*setMeal tag*/
+
+.setMeal-tag {
+	border: 1px solid #eceff3;
+	border-radius: 3.3px;
+}
+
+.setMeal-tag .title {
+	height: 50px;
+	background: #ECEFF3;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.setMeal-tag .priceAndTime h4 {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.setMeal-tag .priceAndTime div {
+	font-size: 50px;
+	text-align: center;
+}
+
+.setMeal-tag .priceAndTime .priceCenter {
+	display: inline-block;
+}
+
+.setMeal-tag .priceAndTime .pricetag {
+	font-size: 28px;
+	vertical-align: top;
+	float: left;
+	margin-top: 6.5px;
+}
+
+.setMeal-tag .des {
+	margin: 25px 30px;
+	padding: 25px 0;
+	border-top: 1px solid #EDEDEF;
+	border-bottom: 1px solid #EDEDEF;
+	height: 170px;
+	line-height: 170px;
+}
+
+.setMeal-tag .des .descrip-container {
+	display: inline-block;
+}
+
+.setMeal-tag .descrip-container div {
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.setMeal-tag .thebutton {
+	padding: 20px 0 32px;
+}
+
+.setMeal-tag .thebutton a {
+	display: inline-block;
+	border-radius: 60px;
+	text-align: center;
+	border: 1px solid #248694;
+	color: #248694;
+	line-height: 60px;
+	height: 60px;
+	width: 235px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+
+/*migrantoryA*/
+
+.migrantoryA .head-toppos {
+	position: relative;
+}
+
+.migrantoryA .pos-des {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 110px 255px 0;
+}
+
+.migrantoryA .pos-des .setMeal-tag {
+	width: 336px;
+	float: left;
+	background: #fff;
+	border-color: #248694;
+}
+
+.migrantoryA .pos-des .setMeal-tag:nth-child(1) {
+	margin-right: 98px;
+}
+
+.migrantoryA .pos-des .setMeal-tag .title {
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
+	background: #248694;
+	color: #fff;
+}
+
+.migrantoryA .pos-des .setMeal-tag h4 {
+	padding-top: 33px;
+	font-size: 18px;
+}
+
+.migrantoryA .pos-des .setMeal-tag h4 span {
+	display: inline-block;
+	width: 141px;
+	height: 34px;
+	border-radius: 68px;
+	line-height: 34px;
+	color: #fff;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	/* 标准的语法 */
+}
+
+.migrantoryA .pos-des .setMeal-tag .priceAndTime div {
+	margin-top: 10px;
+}
+
+.migrantoryA .pos-des .setMeal-tag .des {
+	height: 144px;
+	line-height: 144px;
+	padding: 22px 0 16px;
+}
+
+.migrantoryA .pos-des .setMeal-tag .descrip-container {
+	width: 100%;
+}
+
+.migrantoryA .pos-des .setMeal-tag .descrip-container div {
+	font-size: 10px;
+	width: 100%;
+}
+
+.setMeal-tag .codeblock {
+	text-align: center;
+	padding-bottom: 18px;
+}
+
+.setMeal-tag .codeblock img {
+	width: 92px;
+	height: 92px;
+}
+
+.setMeal-tag .codeblock div {
+	margin-top: 11px;
+	font-size: 14px;
+	letter-spacing: 2.7px;
+}
+
+.migrantoryA .product-des {
+	padding: 100px 150px 114px;
+}
+
+.migrantoryA .product-des .toptitle {
+	float: left;
+	width: 400px;
+}
+
+.migrantoryA .product-des .des {
+	width: 580px;
+	float: left;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.migrantoryA .server {
+	padding: 0 100px;
+}
+
+.migrantoryA .server>div {
+	float: left;
+}
+
+.migrantoryA .server .title {
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.migrantoryA .server .verticalline {
+	height: 40px;
+	margin: 5px 26px;
+}
+
+.migrantoryA .picword {
+	width: 100%;
+	padding: 35px 100px 54px;
+}
+
+.migrantoryA .picword li {
+	float: left;
+	width: 50%;
+	height: 375px;
+}
+
+.migrantoryA .picword li img {
+	height: 375px;
+	width: 100%;
+}
+
+.migrantoryA .picword .words {
+	padding: 32px 0 0 63px;
+	color: #fff;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+	/* 标准的语法 */
+}
+
+.migrantoryA .picword .words h3 {
+	font-size: 36px;
+	line-height: 52px;
+}
+
+.migrantoryA .picword .words div {
+	margin-top: 40px;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.migrantoryA .needknow {
+	margin: 27px 100px 0;
+	border-top: 4px solid #248694;
+	background: #fafafa;
+	padding: 56px 0 53px 71px;
+	font-size: 18px;
+	line-height: 40px;
+	margin-bottom: 60px;
+}
+
+
+/*tabswiper*/
+
+.tabs-change {
+	padding: 55px 100px 0;
+}
+
+.secondnav {
+	width: 100%;
+	height: 52px;
+	border-bottom: 5px solid #248694;
+}
+
+.secondnav li {
+	float: left;
+	height: 50px;
+	padding: 10px 19px;
+	margin-right: 5px;
+	color: #248694;
+	border: 1px solid #F0F0F2;
+	font-size: 20px;
+}
+
+.secondnav .swiper-slide.swiper-slide-active {
+	height: auto;
+}
+
+.secondnav .li-hover {
+	background: #248694;
+	border-color: #248694;
+	color: #fff;
+}
+
+.migrantTab {
+	background: #FAFAFA;
+	border: 1px solid #F0F0F2;
+	padding: 52px 71px 10px;
+	width: 100%;
+}
+
+.migrantTab li {
+	float: left;
+	width: 100%;
+	display: none;
+}
+
+.migrantTab li:nth-child(1) {
+	display: block;
+}
+
+.migrantTab .backblock {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.migrantTab .normaltitle {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 55px;
+}
+
+
+/*居家探访A*/
+
+.migrantoryA .pos-des.visitA {
+	padding: 110px 102px 0;
+}
+
+.migrantoryA .pos-des.visitA .setMeal-tag:nth-child(1) {
+	margin-right: 0;
+}
+
+.migrantoryA .pos-des.visitA .setMeal-tag:nth-child(2) {
+	margin: 0 34px;
+}
+
+.migrantoryA .head-toppos.visitA {
+	margin-bottom: 60px;
+}
+
+
+/*migrantoryB special*/
+
+.migrantoryA .servemore {
+	margin: 56px 100px 94px;
+}
+
+.migrantoryA .servemore ul {
+	width: 100%;
+}
+
+.migrantoryA .servemore ul:nth-child(1) {
+	margin-bottom: 5px;
+}
+
+.migrantoryA .servemore ul li {
+	float: left;
+	height: 66px;
+	background: #F7F7F7;
+	border: 1px solid #F0F0F2;
+	text-align: center;
+}
+
+.migrantoryA .servemore ul li h4 {
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.migrantoryA .servemore ul li h5 {
+	font-size: 12px;
+}
+
+.migrantoryA .servemore ul li:nth-child(1) {
+	color: #fff;
+	background: #248694;
+	border: 1px solid #248694;
+	width: 250px;
+}
+
+.migrantoryA .servemore ul li:nth-child(2) {
+	width: 300px;
+	margin: 0 5px;
+}
+
+.migrantoryA .servemore ul li:nth-child(3) {
+	width: 520px;
+}
+
+.migrantoryA .servemore ul .justone {
+	padding-top: 8px;
+}
+
+
+/*homevist*/
+
+.homevisit-center {
+	padding: 88px 120px;
+}
+
+.homevisit-center img {
+	widows: 473px;
+	height: 309px;
+	float: left;
+}
+
+.homevisit-center .homevistword {
+	float: left;
+	margin-left: 60px;
+	width: 507px;
+}
+
+.homevisit-center .homevistword h3 {
+	font-size: 36px;
+	line-height: 50px;
+	letter-spacing: 4.5px;
+	margin-top: -8px;
+}
+
+.homevisit-center .homevistword h4 {
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.homevisit-center .homevistword .linelong {
+	width: 100%;
+	height: 2px;
+	background: -webkit-linear-gradient(left, #55bce9, #7370b5);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #55bce9, #7370b5);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #55bce9, #7370b5);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #55bce9, #7370b5);
+	/* 标准的语法 */
+	margin: 34px 0 50px;
+}
+
+.homevisit-center .homevistword h5 {
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+
+.homevisit-center .homevistword .des {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.homevisit-mid {
+	padding: 0 126px;
+	color: #fff;
+	height: 70px;
+	width: 100%;
+	background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+	background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+	background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+	background: linear-gradient(to right, #3DBDB6, #0089CE);
+}
+
+.homevisit-mid .english {
+	float: left;
+	font-size: 20px;
+	line-height: 70px;
+	letter-spacing: 10px;
+	margin-right: 40px;
+}
+
+.homevisit-mid .chinese {
+	float: right;
+	font-size: 18px;
+	letter-spacing: 2.3px;
+	line-height: 70px;
+	margin-left: 10px;
+}
+
+
+/*tabhomevisit*/
+
+.theall {
+	width: 100%;
+	height: 408px;
+}
+
+.theall .theleft {
+	float: left;
+	width: 872px;
+}
+
+.theall .homevisitSwiper {
+	width: 872px;
+	height: 408px;
+}
+
+.theall .homevisitSwiper .swiper-slide {
+	height: 408px;
+}
+
+.theall .theleft img {
+	width: 100%;
+}
+
+.theall .theright {
+	float: left;
+	width: 408px;
+}
+
+.theall .theright li {
+	position: relative;
+	height: 136px;
+	width: 100%;
+	text-align: center;
+	line-height: 136px;
+	position: relative;
+	color: #1172D0;
+	font-size: 80px;
+	line-height: 136px;
+}
+
+.theall .theright li div {
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 45px;
+	width: 100%;
+	text-align: center;
+}
+
+.theall .theright li h4 {
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 2.5px;
+}
+
+.theall .theright li h5 {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.theall .theright li:nth-child(1) {
+	background: #55BCE9;
+}
+
+.theall .theright li:nth-child(2) {
+	background: #6596CF;
+}
+
+.theall .theright li:nth-child(3) {
+	background: #7270B5;
+}
+
+.squar {
+	display: none;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50px;
+	left: -25px;
+	border-top: 20px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 20px solid transparent;
+	z-index: 2;
+}
+
+.theall .theright li:nth-child(1) .squar {
+	border-color: transparent #55BCE9 transparent transparent;
+}
+
+.theall .theright li:nth-child(2) .squar {
+	border-color: transparent #6596CF transparent transparent;
+}
+
+.theall .theright li:nth-child(3) .squar {
+	border-color: transparent #7270B5 transparent transparent;
+}
+
+.li-hover .squar {
+	display: block;
+}
+
+.homevist-six {
+	padding: 70px 100px;
+}
+
+.homevist-six li {
+	float: left;
+	width: 320px;
+	padding: 30px 15px 45px;
+	text-align: center;
+}
+.homevist-six li:nth-child(3n+2){
+	margin:0 60px;
+}
+.homevist-six li h4{
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 68px;
+	
+}
+.homevist-six li .des{
+	font-size: 13px;
+	line-height: 16px;
+}
+.homevist-six .icon {
+	width: 65px;
+	height: 55px;
+}
+.homevisit-picword{
+	position: relative;
+	width: 100%;
+}
+.homevisit-picword div{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 59px 0 0 169px;
+	color: #fff;
+}
+.homevisit-picword div h3{
+	font-size: 36px;
+	line-height: 50px;
+	letter-spacing: 4.5px;
+	
+}
+.homevisit-picword div h4{
+	font-size: 28px;
+	line-height: 58px;
+	margin-bottom: 64px;
+}
+.homevisit-picword div li{
+	font-size: 16px;
+	line-height: 28px;
+}
