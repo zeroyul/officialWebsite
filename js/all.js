@@ -61,6 +61,7 @@ $(function() {
 	$('.head-nav').on('click', '.head-span', function() {
 		console.log($(this).data('id'));
 		sessionStorage.setItem('aClick', $(this).data('id'))
+		
 	})
 
 })

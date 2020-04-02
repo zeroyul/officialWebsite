@@ -13,6 +13,7 @@ body {
 
 a:hover {
 	color: none;
+	text-decoration: none;
 }
 
 .head-container {
@@ -78,6 +79,7 @@ a:hover {
 .head-all .head-nav li {
 	float: left;
 	margin-left: 45px;
+	height: 100px;
 }
 
 .head-all .head-span {
@@ -1727,7 +1729,7 @@ a:hover {
 
 .homevist-six li {
 	float: left;
-	width: 320px;
+	width: 310px;
 	padding: 30px 15px 45px;
 	text-align: center;
 }
